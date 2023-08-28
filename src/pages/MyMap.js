@@ -15,7 +15,6 @@ const MyMap = () => {
     >
       <NavigationControl />
       <Marker latitude={55.7060378} longitude={12.5142235} color="black">
-        {" "}
         {/* standard marker */}
         <div //selfstyled pin
           style={{ width: "1.5em", height: "1.5em", backgroundColor: "red" }}
