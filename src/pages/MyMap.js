@@ -1,4 +1,10 @@
+/* eslint import/no-webpack-loader-syntax: off */
+
 import { Map, Marker, NavigationControl, GeolocateControl } from "react-map-gl";
+import mapboxgl from "mapbox-gl";
+
+mapboxgl.workerClass =
+  require("worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker").default;
 
 const MyMap = () => {
   return (
@@ -15,7 +21,6 @@ const MyMap = () => {
     >
       <NavigationControl />
       <Marker latitude={55.7060378} longitude={12.5142235} color="black">
-        {" "}
         {/* standard marker */}
         <div //selfstyled pin
           style={{ width: "1.5em", height: "1.5em", backgroundColor: "red" }}

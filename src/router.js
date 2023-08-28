@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import Location from "./pages/Location";
 import Gyro from "./pages/Gyro";
 import MyMap from "./pages/MyMap";
+import Localbs from "./pages/Localbs";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -16,6 +17,7 @@ export const router = createBrowserRouter(
       <Route path="/location" element={<Location />} />
       <Route path="/gyro" element={<Gyro />} />
       <Route path="/map" element={<MyMap />} />
+      <Route path="/localbs" element={<Localbs />} />
     </Route>
   )
 );
