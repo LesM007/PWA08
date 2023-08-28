@@ -17,7 +17,7 @@ function App() {
         <nav>
           <Link to="/">Home</Link>&nbsp;&nbsp;
           <Link to="/location">Location</Link>&nbsp;&nbsp;
-          <Link to="/geolocation">Geolocation</Link>
+          <Link to="/gyro">Gyro</Link>
         </nav>
       </header>
       <main>
