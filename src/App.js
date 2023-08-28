@@ -17,7 +17,8 @@ function App() {
         <nav>
           <Link to="/">Home</Link>&nbsp;&nbsp;
           <Link to="/location">Location</Link>&nbsp;&nbsp;
-          <Link to="/gyro">Gyro</Link>
+          <Link to="/gyro">Gyroscope</Link>&nbsp;&nbsp;
+          <Link to="/map">Map</Link>
         </nav>
       </header>
       <main>

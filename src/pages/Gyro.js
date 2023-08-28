@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { enable } from "workbox-navigation-preload";
 
 const Gyro = () => {
   const [deviceAlpha, setDeviceAlpha] = useState();
