@@ -18,6 +18,7 @@ function App() {
           <Link to="/">Home</Link>&nbsp;&nbsp;
           <Link to="/location">Location</Link>&nbsp;&nbsp;
           <Link to="/gyro">Gyroscope</Link>&nbsp;&nbsp;
+          <Link to="/geolocation">Geolocation</Link>&nbsp;&nbsp;
           <Link to="/map">Map</Link>&nbsp;&nbsp;
           <Link to="/localbs">Localbase</Link>
         </nav>

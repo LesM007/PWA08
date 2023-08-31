@@ -9,6 +9,7 @@ import Location from "./pages/Location";
 import Gyro from "./pages/Gyro";
 import MyMap from "./pages/MyMap";
 import Localbs from "./pages/Localbs";
+import GeoLocation from "./pages/GeoLocation";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -16,6 +17,7 @@ export const router = createBrowserRouter(
       <Route index element={<Home />} />
       <Route path="/location" element={<Location />} />
       <Route path="/gyro" element={<Gyro />} />
+      <Route path="/geolocation" element={<GeoLocation />} />
       <Route path="/map" element={<MyMap />} />
       <Route path="/localbs" element={<Localbs />} />
     </Route>
