@@ -19,14 +19,14 @@ const MyMap = () => {
         zoom: 16,
       }}
     >
-      <NavigationControl />
+      <NavigationControl style={{ cursor: "pointer" }} />
       <Marker latitude={55.7060378} longitude={12.5142235} color="black">
         {/* standard marker */}
         <div //selfstyled pin
           style={{ width: "1.5em", height: "1.5em", backgroundColor: "red" }}
         ></div>
       </Marker>
-      <GeolocateControl
+      <GeolocateControl //users current loaction
         trackUserLocation={true}
         positionOptions={{ enableHighAccuracy: true }}
         showAccuracyCircle={true}
